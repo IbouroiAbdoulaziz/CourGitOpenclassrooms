@@ -1,3 +1,57 @@
-h1{
+main{
+    height: 600px;
+    display: flex;
+}
+
+
+.vignette{
+    background-color: white;
+    position: relative;
+    display:flex;
+    color: black;
+    justify-content: center;
+    margin: auto;
+    padding-top:6px;
+    width: 260px;
+    height: 200px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px #DEEBFF;
+   
+}
+.vignette img{
+    display: block;
+    width: 95%;
+    height: 60%;
+    object-fit:cover;
+    justify-content: center;
+    border-radius: 17px 17px 0 0;
+   
+    
+}
+
+.bandeau{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: left;
+    padding: 5px 0 0 17px;
+    background-color: white;
+    border-radius: 0 0 20px 20px;
+    height: 40%;
+}
+h3{
     font-size: 1rem;
+    margin:5px 0 0 0;
+    font-weight: 600;
+}
+.bandeau p{
+    font-size: .9rem;
+    font-weight: 300;
+    margin: 5px 0 0 0;
+}
+.bandeau i{
+    color:#0065FC;
+}
+.bandeau span{
+    font-weight: 500;
 }
