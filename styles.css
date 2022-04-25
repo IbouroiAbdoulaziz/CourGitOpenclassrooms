@@ -1,3 +1,106 @@
-h1{
+*{
+    box-sizing: border-box;
+}
+
+main{
+    height: 700px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #a0d1b7;
+}
+
+
+.vignette{
+    background-color: white;
+    position: relative;
+    display:block flex;
+    justify-content: center;
+    padding-top:6px;
+    width: 260px;
+    height: 200px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px #DEEBFF;
+    /*border: 2px solid red;*/
+   
+}
+.vignette img{
+    display: block;
+    width: 95%;
+    height: 60%;
+    object-fit:cover;
+    justify-content: center;
+    border-radius: 17px 17px 0 0;
+   
+    
+}
+
+.bandeau{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: left;
+    padding: 5px 0 0 17px;
+    background-color: white;
+    border-radius: 0 0 20px 20px;
+    height: 40%;
+}
+h3{
     font-size: 1rem;
+    margin:5px 0 0 0;
+    font-weight: 600;
+}
+.bandeau p,.bandeau-bis p{
+    font-size: .9rem;
+    font-weight: 300;
+    margin: 5px 0 0 0;
+}
+.bandeau i,.bandeau-bis i{
+    color:#0065FC;
+}
+.bandeau span,.bandeau-bis span{
+    font-weight: 500;
+}
+
+
+
+/*Mise en page vignette bis*/
+
+.vignette-bis{
+    background-color: white;
+    position: relative;
+    display:flex;
+    align-items: center;
+    height: 150px;
+    width: 360px;
+    margin-top: 30px;
+    border-radius: 20px;
+    padding-left: 6px;
+
+}
+.vignette-bis img{
+    border-radius: 17px 0 0 17px;
+    height: 92%;
+    width: 40%;
+    object-fit: cover;
+}
+
+.bandeau-bis{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    right: 0;
+    height: 100%;
+    width: 60%;
+    text-align: left;
+    padding: 20px 20px 10px 20px;
+    background-color: white;
+    border-radius: 0 17px 17px 0;
+    
+    
+}
+
+.bandeau-bis .notation{
+    margin-top: auto;
+    
 }
