@@ -14,8 +14,9 @@ main{
 .vignette{
     background-color: white;
     position: relative;
-    display:block flex;
+    display:flex;
     justify-content: center;
+    color: black;
     padding-top:6px;
     width: 260px;
     height: 200px;
@@ -71,6 +72,7 @@ h3{
     position: relative;
     display:flex;
     align-items: center;
+    color: black;
     height: 150px;
     width: 360px;
     margin-top: 30px;
