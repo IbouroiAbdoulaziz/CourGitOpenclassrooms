@@ -1,6 +1,11 @@
+*{
+    box-sizing: border-box;
+}
+
 main{
     height: 600px;
     display: flex;
+    background-color: #a0d1b7;
 }
 
 
@@ -16,6 +21,7 @@ main{
     height: 200px;
     border-radius: 20px;
     box-shadow: 0 0 10px #DEEBFF;
+    /*border: 2px solid red;*/
    
 }
 .vignette img{
